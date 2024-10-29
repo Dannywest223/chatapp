@@ -1,0 +1,28 @@
+name: dannymobile
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  image_picker: ^0.8.5+3
+  flutter_sound: ^9.0.5
+  speech_to_text: ^6.0.0
+  http: ^1.2.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0 # Ensure this is correctly placed here
+
+flutter:
+  assets:
+    - 'assets/pngtree-a-white-robot-with-his-blue-eyes-3d-hear-song-png-image_12592811-removebg-preview.png'
